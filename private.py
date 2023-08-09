@@ -1,6 +1,6 @@
 import ccxt
 
-# Create an instance of the Crypto.com exchange
+# Create an instance of the ndax.io exchange
 exchange = ccxt.ndax({
     'apiKey': '',
     'secret': '',
