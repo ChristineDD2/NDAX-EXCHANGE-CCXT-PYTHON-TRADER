@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Create an instance of the Crypto.com exchange
+# Create an instance of the ndax.io exchange
 exchange = ccxt.ndax({
     'apiKey': '',
     'secret': '',
