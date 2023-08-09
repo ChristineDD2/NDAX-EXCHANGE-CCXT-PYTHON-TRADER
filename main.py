@@ -10,8 +10,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # Create an instance of the Crypto.com exchange
 exchange = ccxt.ndax({
-    'apiKey': '6957c3d53bb152464eb64016cb3aefc1',
-    'secret': '147d33e11153aaf4bd26670bc0d85137',
+    'apiKey': '',
+    'secret': '',
     # 'password': 'YOUR_API_PASSWORD',
     # Additional exchange-specific options if needed
 })
