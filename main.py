@@ -8,7 +8,7 @@ import random
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Create an instance of the Crypto.com exchange
+# Create an instance of the ndax.io exchange
 exchange = ccxt.ndax({
     'apiKey': '',
     'secret': '',
